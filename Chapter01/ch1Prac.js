@@ -27,6 +27,7 @@ const a1={
 
 a1['friend']="Topg";
 a1['name']="Topg";
+a1.friend="mannan"
 console.log(a1);
 
 
