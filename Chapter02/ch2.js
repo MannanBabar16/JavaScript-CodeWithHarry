@@ -1,5 +1,5 @@
 // Chapter 02
-//Operations and Expressions
+//Operations and Expressions + Conditional Expression
 
 console.log("Operators in Js");
 let a=45;
@@ -95,3 +95,34 @@ console.log(x>y||x==5);
 // Not Operator
 console.log(!false);
 console.log(!true);
+
+
+"use strict";
+const ps=require("prompt-sync");
+const prompt=ps();
+// Conditional Expressions
+
+let age=prompt("Hey whats your age?")
+age=Number.parseInt(age);
+console.log(typeof age);
+
+if(age<0)
+{
+   // alert("This is a valid age")
+   console.log("This is an invalid age");
+}
+
+else if(age<9)
+{
+    console.log("You are a kid");
+}
+else
+{
+    console.log("Valid Age");
+}
+
+
+//Ternary Operator
+console.log("You ", (age<18 ? "cant drive": "can drive"));
+
+// Homework : Explore switch statement and write a program
