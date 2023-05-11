@@ -125,4 +125,4 @@ else
 //Ternary Operator
 console.log("You ", (age<18 ? "cant drive": "can drive"));
 
-// Homework : Explore switch statement and write a program
+
